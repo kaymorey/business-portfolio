@@ -1,0 +1,41 @@
+body {
+  @include center-flex;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #2BC0E4, #EAECC6);
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+body::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -36.5%;
+  right: -22.54%;
+  width: 49.22vw;
+  height: 74.40vh;
+  border-radius: 100%;
+  background-color: rgba(111, 198, 185, 0.84);
+  filter: blur(75px);
+}
+
+body::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -25%;
+  left: -10.3%;
+  width: 45.3125vw;
+  height: 67.55vh;
+  border-radius: 100%;
+  background-color: rgba(10, 164, 193, 0.87);
+  filter: blur(75px);
+}

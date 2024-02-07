@@ -1,0 +1,32 @@
+.bubbles {
+  position: absolute;
+  inset: 0;
+}
+
+.bubble {
+  position: absolute;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background: linear-gradient(151.96deg, #A6DCD0 17.82%, #45C0BA 89.66%);
+}
+
+.bubble:nth-child(1) {
+  top: -40px; left: 40.23%;
+  width: 82px;
+}
+
+.bubble:nth-child(2) {
+  top: -74px; right: -73px;
+  width: 160px;
+}
+
+.bubble:nth-child(3) {
+  bottom: 24px; left: -165px;
+  width: 208px;
+}
+
+.bubble:nth-child(4) {
+  z-index: 20;
+  right: -68px; bottom: 31px;
+  width: 135px;
+}
