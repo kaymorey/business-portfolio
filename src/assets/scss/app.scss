@@ -4,3 +4,10 @@
 @import 'layout';
 @import 'card';
 @import 'bubbles';
+
+// Inclure un fichier scss ou css situé dans les node_modules
+// @import ~bootstrap/scss/bootstrap; 
+
+::placeholder {
+  color: red;
+}
