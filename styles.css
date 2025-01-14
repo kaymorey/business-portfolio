@@ -23,7 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   background: linear-gradient(to bottom, #2BC0E4, #EAECC6);
   font-family: 'Poppins', Arial, sans-serif;
